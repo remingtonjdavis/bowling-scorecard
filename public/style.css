@@ -1,0 +1,119 @@
+.scoreboard {
+  display:grid;
+  width: 1050px;
+  height: 110px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 150px;
+  grid-template-rows: 110px;
+  border: 1px solid black;
+}
+.frame-cn1 {
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-size: 30px;
+  line-height:50px;
+  height:49px;
+  width:49px;
+}
+.frame-cn2 {
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-size: 30px;
+  line-height:50px;
+  height:48px;
+  width:48px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+.frame-cn3 {
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-size: 30px;
+  line-height:50px;
+  height:48px;
+  width:49px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+.frame-total {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-size: 30px;
+  line-height:60px;
+  text-align:center;
+  width:100px;
+}
+.frame10-total {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-size: 30px;
+  line-height:60px;
+  text-align:center;
+  width:150px;
+}
+.frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10 {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  border: 1px solid black;
+}
+.frame1 {
+  grid-column: 1;
+}
+.frame2 {
+  grid-column: 2;
+}
+.frame3 {
+  grid-column: 3;
+}
+.frame4 {
+  grid-column: 4;
+}
+.frame5 {
+  grid-column: 5;
+}
+.frame6 {
+  grid-column: 6;
+}
+.frame7 {
+  grid-column: 7;
+}
+.frame8 {
+  grid-column: 8;
+}
+.frame9 {
+  grid-column: 9;
+}
+.frame10 {
+  grid-column: 10;
+}
+.keypad {
+  display:flex;
+  flex-wrap:wrap;
+  width: 300px;
+}
+.keypad-button {
+  cursor:pointer;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align:center;
+  line-height: 100px;
+  margin: 5px;
+  width: 88px;
+  height: 88px;
+}
+.keypad-button-lg {
+  cursor: pointer;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align:center;
+  line-height: 100px;
+  margin: 5px;
+  width: 138px;
+  height: 88px;
+}
